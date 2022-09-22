@@ -8,6 +8,9 @@
   width: 110px;
   margin: 0 50px;
 }
+.text__menu {
+  letter-spacing: 0.2rem;
+}
 .menu__redes {
   background-color: gainsboro;
   text-align: center;
@@ -16,7 +19,18 @@
   padding: 7px;
   color: black;
 }
-
+.color a:hover {
+  background-color: pink;
+}
+.container__carousel h1 {
+  padding: 15px;
+}
+.carousel {
+  width: 45%;
+}
+.container__carousel {
+  background-image: url(../assets/fondo-footer.jpg);
+}
 .background__main {
   background-image: url(../assets/fondo-main.jpg);
   background-attachment: fixed;
@@ -39,43 +53,44 @@
 .container__section2 {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 50%;
   margin: 50px auto;
 }
-.section2__tittle {
-  text-align: center;
-}
+
 .text__section2 {
   font-size: 1.2rem;
   line-height: 2rem;
   min-width: 50%;
+  height: auto;
+  margin: 50px;
 }
-.section2__image img {
-  width: 500px;
-}
-.section3__main {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin: 0 auto;
-}
+
 .section3__main img {
   width: 33.33%;
   padding: 10px;
 }
 .section4__container {
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 .consultas__image {
   width: 50%;
 }
-
+.ubicacion {
+  display: flex;
+  width: 100%;
+}
+.ubicacion h2 {
+  margin: 300px;
+}
 footer {
-  background-color: pink;
+  background-color: gainsboro;
   display: flex;
   justify-content: center;
 }
-.menu__footer ul {
-  list-style-type: none;
+.menu__footer {
+  padding: 50px;
+}
+.menu__footer span {
+  margin: 5px;
 }
