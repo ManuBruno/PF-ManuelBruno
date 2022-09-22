@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 .menu_imagen img {
   width: 110px;
@@ -33,6 +34,7 @@
   margin: 250px;
   width: 50%;
   min-width: 50%;
+  text-align: center;
 }
 .container__section2 {
   display: flex;
@@ -68,8 +70,7 @@
 .consultas__image {
   width: 50%;
 }
-.ubicacion {
-}
+
 footer {
   background-color: pink;
   display: flex;
