@@ -15,15 +15,14 @@
   padding: 7px;
   color: black;
 }
-.menu__background {
-  background-attachment: fixed;
-}
+
 .background__main {
   background-image: url(../assets/fondo-main.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
 }
 .container__main {
@@ -33,6 +32,7 @@
   align-items: center;
   margin: 250px;
   width: 50%;
+  min-width: 50%;
 }
 .container__section2 {
   display: flex;
@@ -40,10 +40,41 @@
   width: 60%;
   margin: 50px auto;
 }
+.section2__tittle {
+  text-align: center;
+}
 .text__section2 {
   font-size: 1.2rem;
   line-height: 2rem;
+  min-width: 50%;
 }
 .section2__image img {
   width: 500px;
+}
+.section3__main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.section3__main img {
+  width: 33.33%;
+  padding: 10px;
+}
+.section4__container {
+  display: flex;
+  width: 100%;
+}
+.consultas__image {
+  width: 50%;
+}
+.ubicacion {
+}
+footer {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+.menu__footer ul {
+  list-style-type: none;
 }
