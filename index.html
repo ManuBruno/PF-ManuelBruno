@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/favicon-32x32.png">
   <title>HealthyLara</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -18,17 +19,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./scss/style.css">
-  <link rel="icon" href="./assets/favicon.ico">
+
 </head>
 
 <body>
   <header class="container-fluid bg-dark d-flex justify-content-center">
-    <a href=""><span class="bi bi-facebook mb-0 p-3"></a>
-    <a href="">
+    <a href="https://www.facebook.com/healthylara" target="_blank"><span class="bi bi-facebook mb-0 p-3"></a>
+    <a href="https://www.instagram.com/healthylaraok/?hl=es-la" target="_blank">
       </span>
       <span class="bi bi-instagram mb-0 p-3"></a>
     </span>
-    <a href="">
+    <a href="https://api.whatsapp.com/send?phone=543563402025" target="_blank">
       <span class="bi bi-whatsapp mb-0 p-3">
       </span></a>
   </header>
@@ -82,14 +83,17 @@
             COMIDA</span></p>
       </div>
       <div class="columna-2">
-        <img src="./assets/imagen-lara.png" alt="lara">
+        <img src="./assets/imagen-lara.png" alt="lara" data-aos="zoom-in-up">
+
       </div>
+
     </section>
   </div>
   <section class="contenedor__seccion2">
-    <h2>Conoce a <span>Lara Bertuzzi</span>, tu nutricionista.</h2>
-    <div class="contenedor__imagen"><img src="./assets/imagen-lara-2.jpg" alt="imagen de lara con naranja"></div>
-    <div class="texto__conoceme">
+    <h2 class="wow animate__animated animate__backInLeft">Conoce a <span>Lara Bertuzzi</span>, tu nutricionista.</h2>
+    <div class="contenedor__imagen"><img src="./assets/imagen-lara-2.jpg" alt="imagen de lara con naranja"
+        data-aos="fade-up"></div>
+    <div class="texto__conoceme" data-aos="fade-up">
       <p>Mi nombre es Lara Bertuzzi, tengo 26 años, estudie la carrera de nutrición en la universidad nacional de
         Cordoba(UNC).
         Primero empecé compartiendo recetas saludables para ayudar a tener una alimentación diaria mas fácil pero ahora
@@ -98,18 +102,18 @@
         incapie
         en una alimentación consciente.</p>
     </div>
-    <div class="texto__conoceme">
+    <div class="texto__conoceme" data-aos="fade-up">
       <p>Lo que me apasiona es poder informar, acompañar a las personas ya que entran en
         juego un
         montón de factores en el acto de comer como las conductas alimentarias, los habitos, las costumbres, los
         sentimientos
         que por ahí antes no se consideraba lo suficiente.</p>
     </div>
-    <div class="contenedor__imagen"><img src="./assets/imagen-inicio.jpg" alt="Lara"></div>
+    <div class="contenedor__imagen" data-aos="fade-up"><img src="./assets/imagen-inicio.jpg" alt="Lara"></div>
   </section>
   <div class="body__page">
     <div class="container__card">
-      <div class="card c1">
+      <div class="card c1" data-aos="flip-left">
         <div class="icon">
           <i class="fa-solid fa-utensils"></i>
         </div>
@@ -118,10 +122,10 @@
             reprehenderit magni enim quis voluptatem omnis ad laborum ducimus similique suscipit fuga culpa! Nostrum
             quod voluptates aut reiciendis placeat! Totam exercitationem minus, quibusdam quidem vero provident
             cumque, inventore praesentium sapiente nulla illo quo iste labore quia aliquid maxime.</p>
-          <input type="button" value="Leer mas">
+          <a href="./html/almuerzos.html"><input type="button" value="Leer mas"></a>
         </div>
       </div>
-      <div class="card c2">
+      <div class="card c2" data-aos="flip-left">
         <div class="icon">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
@@ -130,10 +134,10 @@
             reprehenderit magni enim quis voluptatem omnis ad laborum ducimus similique suscipit fuga culpa! Nostrum
             quod voluptates aut reiciendis placeat! Totam exercitationem minus, quibusdam quidem vero provident
             cumque, inventore praesentium sapiente nulla illo quo iste labore quia aliquid maxime.</p>
-          <input type="button" value="Leer mas">
+          <a href="#"><input type="button" value="Leer mas"></a>
         </div>
       </div>
-      <div class="card c3">
+      <div class="card c3" data-aos="flip-left">
         <div class="icon">
           <i class="fa-solid fa-question"></i>
         </div>
@@ -142,7 +146,7 @@
             reprehenderit magni enim quis voluptatem omnis ad laborum ducimus similique suscipit fuga culpa! Nostrum
             quod voluptates aut reiciendis placeat! Totam exercitationem minus, quibusdam quidem vero provident
             cumque, inventore praesentium sapiente nulla illo quo iste labore quia aliquid maxime.</p>
-          <input type="button" value="Leer mas">
+          <a href="#"><input type="button" value="Leer mas"></a>
         </div>
       </div>
     </div>
@@ -163,9 +167,9 @@
         <div class="box">
           <h2>Seguime</h2>
           <div class="red-social">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="https://www.facebook.com/healthylara" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/healthylaraok/?hl=es-la" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://api.whatsapp.com/send?phone=543563402025" class="fa fa-whatsapp" target="_blank"></a>
           </div>
         </div>
       </div>
