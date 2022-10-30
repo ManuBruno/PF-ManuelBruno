@@ -330,12 +330,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 .gallery__tittle {
   position: absolute;
   bottom: 0;
   color: white;
-  background: black;
+  background: rgba(0, 0, 0, 0.295);
   width: 100%;
   margin: 0;
   padding: 10px;
@@ -449,5 +454,5 @@
   border: 1px solid pink;
   font-family: "calibri";
   font-size: 18px;
-  color: white;
+  color: black;
 }
